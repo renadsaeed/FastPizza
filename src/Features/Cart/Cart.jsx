@@ -1,9 +1,8 @@
-import { Link } from "react-router-dom";
 import Button from "../../UI/Button.jsx";
 import LinkButton from "../../UI/LinkButton.jsx";
 import CartItem from "./CartItem.jsx";
 import { useSelector } from "react-redux";
-import { clearCart } from "./CartSlice.jsx";
+
 import { getCart } from "./CartSlice";
 import { useDispatch } from "react-redux";
 import EmptyCart from "./EmptyCart.jsx";

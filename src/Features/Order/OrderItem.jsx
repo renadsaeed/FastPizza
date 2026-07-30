@@ -5,9 +5,17 @@ function OrderItem({ item, isLoadingIngredients, ingredients }) {
   return (
     <li className="pt-4 pb-2">
       <div className="flex justify-between items-center gap-4 text-sm">
-        <p>
+        <div>
           <span className="font-bold">{quantity}&times;</span> {name}
-        </p>
+          {isLoadingIngredients ? (
+            <p className="text-stone-500 text-sm mt-1">loading... </p>
+          ) : (
+            <p className="text-xs italic mt-1 sm:text-sm capitalize text-stone-500">
+              {ingredients.join(" , ")}{" "}
+            </p>
+          )}
+        </div>
+
         <p className="font-bold">{formatCurrency(totalPrice)}</p>
       </div>
     </li>

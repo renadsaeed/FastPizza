@@ -16,9 +16,9 @@ function CartOverview() {
         <span className="  font-semibold text-red-800">
           {numofpizzas} pizzas
         </span>
-        <span className="text-stone-400">${totalPrice.toFixed(2)}</span>
+        <span className="text-stone-700">${totalPrice.toFixed(2)}</span>
       </p>
-      <Link to="/cart" className="text-stone-400">
+      <Link to="/cart" className="text-stone-700">
         Open cart &rarr;
       </Link>
     </div>

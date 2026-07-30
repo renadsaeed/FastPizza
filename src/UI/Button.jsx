@@ -9,7 +9,7 @@ export default function Button({ children, disabled, to, type, onClick }) {
     small: base + " py-2 px-3 md:px-5 md:py-2.5 mb-2 text-sm sm:text-base ",
     round:
       base +
-      " py-1 px-3 md:py-1.5 md:px-3  md:px-5 md:py-2.5 mb-2 text-sm sm:text-base rounded-full ",
+      " py-[3px] px-[10px] md:py-1.5 md:px-3  md:px-[20] md:py-[10] mb-2 text-sm sm:text-base rounded-full ",
     secondary:
       " border border-stone-300  py-2 px-3 md:px-5 md:py-2.5 mb-2 text-sm sm:text-base rounded-full text-stone-400 font-semibold uppercase tracking-wide hover:bg-stone-300 inline-block transition-colors duration-300 disabled:opacity-50 focus:outline-none focus:ring focus:ring-stone-300 focus:ring-offset-2 focus:bg-stone-300 disabled:cursor-not-allowed hover:text-stone-800 ",
   };

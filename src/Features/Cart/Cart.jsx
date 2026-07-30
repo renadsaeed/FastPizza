@@ -1,5 +1,5 @@
 import Button from "../../UI/Button.jsx";
-import LinkButton from "../../UI/LinkButton.jsx";
+import LinkButton from "../../UI/Linkbutton.jsx";
 import CartItem from "./CartItem.jsx";
 import { useSelector } from "react-redux";
 

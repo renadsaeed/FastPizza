@@ -7,8 +7,8 @@ import Button from "../../UI/Button.jsx";
 import { useDispatch, useSelector } from "react-redux";
 import { clearCart, getCart, gettotalcartprice } from "../Cart/CartSlice.jsx";
 import EmptyCart from "../Cart/EmptyCart.jsx";
-import store from "../../store";
-import { formatCurrency } from "../../utils/helpers.js";
+import store from "../../Store.jsx";
+import { formatCurrency } from "../../Utils/helpers.js";
 // https://uibakery.io/regex-library/phone-number
 const isValidPhone = (str) =>
   /^\+?\d{1,4}?[-.\s]?\(?\d{1,3}?\)?[-.\s]?\d{1,4}[-.\s]?\d{1,4}[-.\s]?\d{1,9}$/.test(

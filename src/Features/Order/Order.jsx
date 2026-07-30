@@ -7,8 +7,8 @@ import {
   calcMinutesLeft,
   formatCurrency,
   formatDate,
-} from "../../utils/helpers";
-import store from "../../Store.jsx";
+} from "../../Utils/helpers.js";
+// import store from "../../Store.jsx";
 import { useEffect } from "react";
 import UpdatePriority from "./UpdatePriority.jsx";
 

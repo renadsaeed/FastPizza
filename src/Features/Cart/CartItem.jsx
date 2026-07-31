@@ -1,5 +1,5 @@
 import Button from "../../UI/Button.jsx";
-import { formatCurrency } from "../../utils/helpers.js";
+import { formatCurrency } from "../../Utils/helpers.js";
 import { deleteitem } from "./CartSlice.jsx";
 import { useDispatch } from "react-redux";
 import DeleteItem from "../../UI/DeleteItem.jsx";

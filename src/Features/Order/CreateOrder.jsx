@@ -1,6 +1,6 @@
 import { useState } from "react";
 import { Form, redirect, useActionData, useNavigation } from "react-router-dom";
-import { createOrder } from "../../Services/apiRestaurant";
+import { createOrder } from "../../Services/apiRestaurant.js";
 import { fetchAdress } from "../Users/userSlice.js";
 import { updateAdress } from "../Users/userSlice.js";
 import Button from "../../UI/Button.jsx";
